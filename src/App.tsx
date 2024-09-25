@@ -1,13 +1,15 @@
-import './App.css'
-import Orange from './assets/components/Orange.tsx'
+import './App.css';
 
-function App() {
+const App = () => {
 
   return (
-    <>
-     <h1>Hello World</h1>
-     <Orange/>
-    </>
+    <div className="App">
+      <div className='header'>
+        <h1>Orange Selector</h1>
+        <h2>Count:</h2>
+        <img className="orange" src="https://www.pngall.com/wp-content/uploads/2016/05/Orange-PNG-Clipart.png" alt="orange"/>
+      </div>
+    </div>
   )
 }
 
