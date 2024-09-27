@@ -14,7 +14,7 @@ const App = () => {
       <div className='header'>
         <h1>Orange Selector</h1>
         <h2>Count: {count}</h2>
-        <img onClick={updateCount} className="h-[30em] p-[2em] mx-auto text-center text-blue-100" src="https://www.pngall.com/wp-content/uploads/2016/05/Orange-PNG-Clipart.png" alt="orange"/>
+        <img onClick={updateCount} className="h-[30em] p-[2em] mx-auto text-center" src="https://www.pngall.com/wp-content/uploads/2016/05/Orange-PNG-Clipart.png" alt="orange"/>
       </div>
     </div>
   )
